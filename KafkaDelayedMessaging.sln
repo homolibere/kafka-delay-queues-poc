@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{98A6794F-B0A8-400E-8FCA-36222BD39C00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaDelayedMessaging", "src\KafkaDelayedMessaging\KafkaDelayedMessaging.csproj", "{FC2A90DA-7112-462F-8CB6-E2995046B733}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1C7F6909-9AD2-4448-A643-8931416BEB27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaDelayedMessaging.Tests", "tests\KafkaDelayedMessaging.Tests\KafkaDelayedMessaging.Tests.csproj", "{1BBBA74B-F99B-49B2-B7CC-F35AE8C2D6CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC2A90DA-7112-462F-8CB6-E2995046B733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2A90DA-7112-462F-8CB6-E2995046B733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2A90DA-7112-462F-8CB6-E2995046B733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2A90DA-7112-462F-8CB6-E2995046B733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BBBA74B-F99B-49B2-B7CC-F35AE8C2D6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BBBA74B-F99B-49B2-B7CC-F35AE8C2D6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BBBA74B-F99B-49B2-B7CC-F35AE8C2D6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BBBA74B-F99B-49B2-B7CC-F35AE8C2D6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC2A90DA-7112-462F-8CB6-E2995046B733} = {98A6794F-B0A8-400E-8FCA-36222BD39C00}
+		{1BBBA74B-F99B-49B2-B7CC-F35AE8C2D6CA} = {1C7F6909-9AD2-4448-A643-8931416BEB27}
+	EndGlobalSection
+EndGlobal
